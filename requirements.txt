@@ -1,0 +1,12 @@
+# FastAPI и сервер
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Валидация данных
+pydantic==2.5.0
+
+# Работа с переменными окружения
+python-dotenv==1.0.0
+
+# Yandex Cloud SDK
+yandex-ai-studio-sdk

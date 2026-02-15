@@ -1,0 +1,8 @@
+[project]
+name = "Adventure"
+version = "0.1.0"
+description = "Первый вариант adventure"
+requires-python = ">=3.12"
+dependencies = [
+    "yandex-ai-studio-sdk>=0.19.2",
+]
