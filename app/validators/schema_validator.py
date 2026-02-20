@@ -39,3 +39,5 @@ def validate_parsed_intent(data: Dict[str, Any]) -> None:
                 data["radius"] = 50000
         except (ValueError, TypeError):
             data["radius"] = 5000
+
+

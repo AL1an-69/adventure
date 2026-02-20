@@ -29,13 +29,13 @@ class YandexGPTClient:
   "mood": "настроение",
   "company": "с_кем",
   "time_context": "когда",
-  "price_level": "low/medium/high/premium",
+  "price_level": "none/low/medium/high/premium",
   "feature_tags": ["теги"]
 }
 
 Правила:
 - radius: "рядом/недалеко" = 2000, иначе 5000
-- price_level: только low, medium, high, premium
+- price_level: только low, medium, high, premium, так же если нет никакой информации о цене поставить none
 - Все остальные поля могут быть любыми словами
 - Верни ТОЛЬКО JSON, без пояснений
 

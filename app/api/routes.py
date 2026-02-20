@@ -11,7 +11,7 @@ from app.schemas.request import UserQuery
 from app.schemas.response import ParseResponse
 
 # Инициализация роутера и сервисов
-router = APIRouter(prefix="/api/v1")
+router = APIRouter(prefix="/api")
 nlp_service = NLPService()
 
 
