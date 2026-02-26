@@ -18,6 +18,9 @@ class Settings:
     YANDEX_FOLDER_ID: str = os.getenv("YANDEX_FOLDER_ID", "")
     YANDEX_API_KEY: str = os.getenv("YANDEX_API_KEY", "")
 
+    # Данные Geo Search
+    GEO_SEARCH_KEY : str = os.getenv("GEO_SEARCH_KEY","")
+
     # Настройки приложения
     DEBUG: bool = os.getenv("DEBUG", "False").lower() == "true"
 

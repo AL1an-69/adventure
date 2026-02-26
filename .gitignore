@@ -11,6 +11,6 @@ wheels/
 # Virtual environments
 .venv
 
-# Секретные ключи
+# Ключи
 .env
 
